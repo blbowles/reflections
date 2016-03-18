@@ -1,0 +1,10 @@
+
+# What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository git will create the necessary directories for the metadata. The metadata is used to track file attributes such as version, commit ID, repository, commit comments...
+
+# How is the staging area different from the working directory and the repository?
+The staging area is used by git to mark files as being tracked before commiting them to the repository.
+
+# What value do you think it offers?
+This allows you to commit some of the files rather than all of the files in the directory.
