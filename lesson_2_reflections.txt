@@ -29,4 +29,18 @@ the following:
  may not be merged back into the master branch.
 -making  new versions of the code which will remain seperate
 
+# How do the diagrams help you visualize the
+# branch structure
+
+Diagrams help you see the parents of each commit and which
+commits can directly access other commits
+
+# What are the pros and cons of Git's automatic
+# merging vs. always doing merges manually
+
+Automatic merging takes care of the easy merges. If there is
+ever any ambiguity then human intervention is required.
+Manual merging is tedious but may be required if there are
+changes in both branches which will require review.
+
 
