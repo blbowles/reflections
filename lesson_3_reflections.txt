@@ -21,4 +21,18 @@ have a reference to the repository that it is cloned from
 -Branches remain in a single repository and separates coding
 efforts from the master branch
 
-# 
+# What is the benefit of having a copy of the last
+# known state of the remote stored locally?
+
+This enables you to compare the remote version against
+your local version changes.
+ 
+# How would you collaborate without using Git or GitHub?
+# What would be easier, and what would be harder?
+
+To collaborate without git or github would require multiple users
+making changes to the same version of code. It would be easier to
+change the code which could also be a bad thing. Tracking of 
+changes would be impossible for large teams.
+
+
